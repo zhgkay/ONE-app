@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">一个</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="spinner_title">一个VOL.2410</string>
+    <string name="title_activity_splash">一个</string>
+    <string name="title_activity_all_main">MainActivity</string>
+    <string name="title_activity_me_main">MainActivity</string>
+    <string name="title_activity_my_fragment">MainActivity</string>
+    <string name="title_activity_login_main">MainActivity</string>
+    <string name="title_activity_setting_main">MainActivity</string>
+    <string name="title_activity_registered_main">MainActivity</string>
+    <string name="title_activity_activity_set">MainActivity</string>
+    <string name="title_activity_activity_tel">MainActivity</string>
+    <string name="title_activity_activity_xy">MainActivity</string>
+    <string name="title_activity_user">MainActivity</string>
+
+</resources>

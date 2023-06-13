@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <RadioGroup
+        android:id="@+id/tabs_rg"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#dcdcdc"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.00"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_menu_one"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:text="ONE"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/all"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_menu_all"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:text="ALL"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_menu_me"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:text="ME"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/ly_contetn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tabs_rg" >
+    </FrameLayout>
+
+</RelativeLayout>

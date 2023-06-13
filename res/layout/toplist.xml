@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.loopj.android.image.SmartImageView
+            android:id="@+id/img_url"
+            android:layout_width="match_parent"
+            android:layout_height="214dp" />
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.79"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="摄影 "
+                android:textColor="#696969"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/pic_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alexander Popov"
+                android:textColor="#696969"
+                android:textSize="8sp" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/forward"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="我们听到的一切都是一个观点，不是事实。我们看见的一切都是一个视角，不是真相。"
+            android:textColor="#000000"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/words_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="马克·奥勒留《沉思录》"
+            android:textColor="#696969"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="一个 VOL.2414"
+        android:textColor="#696969"
+        android:textSize="8sp" />
+
+</LinearLayout>

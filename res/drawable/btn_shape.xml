@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 内部填充颜色 -->
+    <solid android:color="#2c2c2c" />
+
+    <!-- 大小 -->
+    <size
+        android:height="200dp"
+        android:width="200dp" />
+
+    <!-- 渐变色 gradient -->
+    <!-- 圆角 -->
+    <corners android:radius="200dp" />
+
+    <!-- 内边距 -->
+
+
+</shape>

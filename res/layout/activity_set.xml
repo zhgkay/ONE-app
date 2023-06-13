@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8ff"
+    tools:context=".SetActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#fff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_backMe"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/return_image" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.90"
+            android:gravity="center_horizontal"
+            android:text="设置"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="4dp"
+        android:text="设置"
+        android:textColor="#aaa"
+        android:textSize="9sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="夜间模式"
+            android:textSize="10sp" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="开启省流量模式"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/bt_clear"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginLeft="6dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:text="清除缓存"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="4dp"
+        android:text="反馈"
+        android:textColor="#aaa"
+        android:textSize="9sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="7dp"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bt_sugg"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_marginLeft="6dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:text="意见与反馈"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/bt_we"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_marginLeft="6dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:text="关于我们"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/bt_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_marginLeft="6dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:text="商务合作联系"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="4dp"
+        android:text="关于"
+        android:textColor="#aaa"
+        android:textSize="9sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bt_xy"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_marginLeft="6dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:text="用户协议"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="版本号                                                                                   5.1.1"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</RelativeLayout>
